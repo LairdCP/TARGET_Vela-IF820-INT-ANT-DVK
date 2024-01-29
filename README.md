@@ -7,7 +7,7 @@ Ensure your estate of Classic Bluetooth&#174; devices don't get left behind in a
 The Vela IF820 includes multiple small form factor PCB modules to suit any host board footprint and targets both hosted and hostless applications. They're accompanied by low cost, easy to use development kits and the addition of a certified, packaged USB Adapter to add Classic Bluetooth&#174; and Bluetooth&#174; LE connectivity to a variety of additional products in your Bluetooth&#174; portfolio. Together, Infineon and Laird Connectivity drive down your total cost of ownership, design complexity and risk, while ensuring you the fastest time to market for your next dual mode Bluetooth&#174; IoT design.
 
 * Vela IF820 module (Part # 453-00171) using CYW20820-based silicon
-* Dual-mode Bluetooth&#174; (LE/BR/EDR) and Bluetooth&#174; 5.2 certified
+* Dual-mode Bluetooth&#174; (LE/BR/EDR) and Bluetooth&#174; 5.4 certified
 * FCC, ISED, CE, UKCA, MIC, RCM and and KCC Certified Module on board (Part # 453-00171)
 * DVK supports MikroBus and Qwicc connectors for easy sensor board additions
 * Simple headers and jumpers for all I/O

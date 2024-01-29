@@ -1,5 +1,5 @@
 /*
- * Copyright 2016-2023, Cypress Semiconductor Corporation (an Infineon company) or
+ * Copyright 2016-2024, Cypress Semiconductor Corporation (an Infineon company) or
  * an affiliate of Cypress Semiconductor Corporation.  All rights reserved.
  *
  * This software, including source code, documentation and related
@@ -147,9 +147,9 @@ wiced_platform_gpio_config_t;
 #define WICED_GPIO_PIN_BUTTON         WICED_GPIO_PIN_BUTTON_1
 
 /*! configuration settings for button, x can be GPIO_EN_INT_RISING_EDGE or GPIO_EN_INT_FALLING_EDGE or GPIO_EN_INT_BOTH_EDGE */
-#define WICED_GPIO_BUTTON_SETTINGS(x)                       ( GPIO_INPUT_ENABLE | GPIO_PULL_DOWN | x )
-#define WICED_GPIO_PIN_BUTTON_TRIGGER                        GPIO_EN_INT_RISING_EDGE
-#define WICED_GPIO_BUTTON_WAKE_MODE                          WICED_SLEEP_WAKE_ACTIVE_HIGH
+#define WICED_GPIO_BUTTON_SETTINGS(x)                       ( GPIO_INPUT_ENABLE | GPIO_PULL_UP | x )
+#define WICED_GPIO_PIN_BUTTON_TRIGGER                        GPIO_EN_INT_FALLING_EDGE
+#define WICED_GPIO_BUTTON_WAKE_MODE                          WICED_SLEEP_WAKE_ACTIVE_LOW
 
 /*! pin for LED 2 */
 #define WICED_GPIO_PIN_LED_2     WICED_P27
