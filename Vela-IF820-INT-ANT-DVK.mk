@@ -73,7 +73,7 @@ COMPONENTS+=btstack_v1
 CY_CORE_OTA_FW_UPGRADE_STORE=on_chip_flash
 
 # board has external LPO
-USE_32K_EXTERNAL_LPO?=1
+USE_32K_EXTERNAL_LPO?=0
 CY_CORE_DEFINES+=-DUSE_32K_EXTERNAL_LPO=$(USE_32K_EXTERNAL_LPO)
 
 # Do RF Calibration to ensure output tx power accuracy
